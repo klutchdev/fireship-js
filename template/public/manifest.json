@@ -1,0 +1,21 @@
+{
+  "name": "Fireship React Template",
+  "short_name": "Fireship React Template",
+  "description": "Awesome Content for App Developers",
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#454e56",
+  "background_color": "#2a2e35",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "64x64",
+      "type": "image/png"
+    },
+    {
+      "src": "logo-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

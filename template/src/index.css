@@ -1,0 +1,179 @@
+/* Tip: If you see an "Unknown at rule @import-normalize css(unknownAtRules)"
+warning in VSCode,change the css.lint.unknownAtRules setting to ignore. */
+@import-normalize;
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+:root {
+  --black: #030303;
+  --black95: #030303f0;
+  --black90: #030303ee;
+  --black75: #030303af;
+  --black60: #030303a0;
+  --black50: #03030385;
+  --black25: #03030350;
+  --black10: #03030320;
+  --dark: #171819;
+  --grey-950: #151718;
+  --grey-900: #1d2021;
+  --grey-850: #222325;
+  --grey-800: #2f3234;
+  --grey-700: #36393a;
+  --grey-600: #424748;
+  --grey-500: #5d6263;
+  --grey-400: #6b6f71;
+  --grey-300: #737779;
+  --grey-200: #9aa0a4;
+  --grey-100: #b2b7bb;
+  --grey-50: #cacfd3;
+  --light: #eeeeee;
+  --white: #fefefe;
+
+  --red: hsl(348, 100%, 61%);
+  --blue: #498afb;
+  --light-blue: #00d9ff;
+  --orange: #fa8142;
+  --green: #09c372;
+  --light-green: #22da6b;
+  --purple: hsl(265, 50%, 60%);
+  --yellow: hsl(48, 100%, 67%);
+  --pink: #ff4088;
+  --shadow: var(--black75) 3px 5px 10px;
+  --border-radius: 5px;
+  --font-primary: "Noto Sans";
+  font-size: 1rem;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: -apple-system,
+    BlinkMacSystemFont,
+    'Segoe UI',
+    'Roboto',
+    'Oxygen',
+    'Ubuntu',
+    'Cantarell',
+    'Fira Sans',
+    'Droid Sans',
+    'Helvetica Neue',
+    sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--grey-900);
+  font-family: var(--font-primary);
+  height: 100%;
+}
+
+h1 {
+  margin: auto auto auto 0;
+  text-align: left;
+  font-size: 4rem;
+  color: var(--grey-400);
+}
+
+.header {
+  margin: 2rem auto 0 auto;
+  background-image: url("fireship.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50vh;
+  width: 50%;
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow);
+  transition: all 300ms ease;
+}
+
+.body {
+  margin: auto;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tags {
+  margin: 2rem auto;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.tag {
+  margin: auto 1.5rem auto 0;
+  padding: 0 1rem;
+  height: 3rem;
+  width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: var(--border-radius);
+  font-size: 2rem;
+  font-weight: 500;
+  color: var(--dark);
+  font-family: var(--font-primary);
+  box-shadow: var(--shadow);
+}
+
+.tag-fireship {
+  background-color: var(--orange);
+  transition: all 300ms ease;
+}
+
+.tag-react {
+  background-color: var(--light-blue);
+  transition: all 350ms ease;
+}
+
+.tag-firebase {
+  background-color: var(--yellow);
+  transition: all 450ms ease;
+}
+
+.tag-css {
+  background-color: var(--pink);
+  transition: all 400ms ease;
+}
+
+.npm-command {
+  margin: auto;
+  padding: 0.25rem 0.5rem 0 0.5rem;
+  height: 3rem;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  border-radius: var(--border-radius);
+  font-size: 1.15rem;
+  font-family: monospace;
+  font-weight: 500;
+  color: var(--grey-200);
+  background-color: var(--grey-950);
+  box-shadow: var(--shadow);
+  vertical-align: middle;
+  transition: all 500ms ease;
+}
+
+.npm-cra {
+  color: var(--light-green);
+}
+
+.npm-template {
+  color: var(--orange);
+}
