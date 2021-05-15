@@ -9,16 +9,16 @@
 ### npx
 
 ```sh
-npx create-react-app your-app --template fireship-js
+npx create-react-app <your-app-name> --template fireship-js
 ```
 
 ### npm commands
 
 ```sh
-# Starts the development server
+# Power up your dev server
 npm start
 
-# Builds a production ready app in the build folder
+# Ship 👏🏻 that 👏🏻 fucker 👏🏻 !
 npm run build
 ```
 
