@@ -1,7 +1,7 @@
 {
   "name": "cra-template-fireship-js",
   "description": "Awesome content for developers",
-  "version": "0.1.0",
+  "version": "0.2.1",
   "private": false,
   "main": "template.json",
   "keywords": [
@@ -16,13 +16,13 @@
     "NoSQL"
   ],
   "dependencies": {
-    "@testing-library/jest-dom": "^5.11.10",
-    "@testing-library/react": "^11.2.6",
-    "@testing-library/user-event": "^13.1.1",
-    "firebase": "^8.3.1",
+    "@testing-library/jest-dom": "^5.12.0",
+    "@testing-library/react": "^11.2.7",
+    "@testing-library/user-event": "^13.1.9",
+    "firebase": "^8.6.2",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
-    "react-firebase-hooks": "^3.0.3",
+    "react-firebase-hooks": "^3.0.4",
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.3"
   },
