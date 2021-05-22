@@ -1,6 +1,15 @@
+/*
+    ███████╗██╗██████╗ ███████╗███████╗██╗  ██╗██╗██████╗ 
+    ██╔════╝██║██╔══██╗██╔════╝██╔════╝██║  ██║██║██╔══██╗
+    █████╗  ██║██████╔╝█████╗  ███████╗███████║██║██████╔╝
+    ██╔══╝  ██║██╔══██╗██╔══╝  ╚════██║██╔══██║██║██╔═══╝ 
+    ██║     ██║██║  ██║███████╗███████║██║  ██║██║██║     
+    ╚═╝     ╚═╝╚═╝  ╚═╝╚══════╝╚══════╝╚═╝  ╚═╝╚═╝╚═╝     
+ */
+
 import React from "react";
 // import { auth } from "./firebase";
-// import { useAuthState } from "react-firebase-hooks";
+// import { useAuthState } from "react-firebase-hooks/auth";
 
 function App() {
   // const [user, loading, error] = useAuthState(auth);
