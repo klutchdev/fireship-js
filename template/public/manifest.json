@@ -1,7 +1,7 @@
 {
-  "name": "Fireship React Template",
-  "short_name": "Fireship React Template",
-  "description": "Awesome Content for App Developers",
+  "name": "Fireship CRA",
+  "short_name": "Fireship CRA",
+  "description": "Build and ship 🔥 your app ⚡ faster",
   "start_url": ".",
   "display": "standalone",
   "theme_color": "#454e56",
