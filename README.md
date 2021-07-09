@@ -1,8 +1,8 @@
 # Fireship CRA
 
-[![Firebase](https://img.shields.io/badge/firebase%20-%23039BE5.svg?&style=for-the-badge&logo=firebase)](https://firebase.com)
+[![Firebase](https://img.shields.io/npm/v/firebase?label=firebase&style=for-the-badge&color=FFCA28&labelColor=151718&logo=firebase](https://firebase.com)
 
-[![React](https://img.shields.io/badge/react%20-%2320232a.svg?&style=for-the-badge&logo=react&logoColor=%2361DAFB)](https://reactjs.com)
+[![React](https://img.shields.io/npm/v/react?label=react&style=for-the-badge&color=61dafb&labelColor=151718&logo=react](https://reactjs.com)
 
 ## Usage
 
