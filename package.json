@@ -1,7 +1,7 @@
 {
   "name": "cra-template-fireship-js",
   "description": "Build and ship 🔥 your app ⚡ faster",
-  "version": "0.2.4",
+  "version": "0.2.5",
   "main": "template.json",
   "engines": {
     "node": ">=10"
@@ -21,26 +21,27 @@
     "firebase"
   ],
   "devDependencies": {
-    "@testing-library/jest-dom": "^5.11.10",
-    "@testing-library/react": "^11.2.6",
-    "@testing-library/user-event": "^13.1.1",
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^12.0.0",
+    "@testing-library/user-event": "^13.1.9",
     "firebase": "^8.7.1",
     "react-firebase-hooks": "^3.0.4",
     "react-router-dom": "^5.2.0",
-    "prettier": "^2.2.1",
-    "jest": "^24.9.0",
-    "source-map-explorer": "^2.5.2"
+    "prettier": "^2.3.2",
+    "jest": "^27.0.6"
   },
   "scripts": {
-    "analyze": "source-map-explorer 'build/static/js/*.js'",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
-    "extends": ["react-app", "react-app/jest"]
-   },
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
   "files": [
     "template",
     "template.json"

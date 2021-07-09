@@ -8,9 +8,10 @@
 
 ## Usage
 
-### npx
+### Install
 
 ```bash
+# With npx
 npx create-react-app <your-app-name> --template fireship-js
 ```
 
