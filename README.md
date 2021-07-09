@@ -10,13 +10,13 @@
 
 ### npx
 
-```sh
+```bash
 npx create-react-app <your-app-name> --template fireship-js
 ```
 
 ### commands
 
-```sh
+```bash
 # Start the dev server
 npm start
 
@@ -26,5 +26,26 @@ npm run build
 # Analyze production build bundle size 
 npm run analyze
 ```
+
+### Useful resources on Fireship:
+
+#### Tags:
+
+[React](https://fireship.io/tags/react/) |
+[Firebase](https://fireship.io/tags/firebase/)
+
+#### Video content:
+
+[React Hooks](https://www.youtube.com/watch?v=TNhaISOUy6Q) |
+[Running tests](https://www.youtube.com/watch?v=Jv2uxzhPFl4)
+
+### React/NextJS course:
+
+[fireship.io/courses/react-next-firebase](https://fireship.io/courses/react-next-firebase/)
+
+### Slack channel
+
+[fireship.page.link/slack](https://fireship.page.link/slack)
+
 
 ![Preview](./preview.png)
