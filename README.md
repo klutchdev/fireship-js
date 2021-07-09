@@ -5,6 +5,7 @@
 [![React](https://img.shields.io/npm/v/react?label=react&style=for-the-badge&color=61dafb&labelColor=151718&logo=react)](https://reactjs.com)
 
 [![Issues](https://img.shields.io/github/issues/klutchdev/fireship-js?style=for-the-badge&labelColor=151718&color=success&logo='📼')](https://img.shields.io/github/issues/klutchdev/fireship-js)
+
 ## Usage
 
 ### npx
@@ -13,14 +14,17 @@
 npx create-react-app <your-app-name> --template fireship-js
 ```
 
-### npm commands
+### commands
 
 ```sh
-# Power up the dev server
+# Start the dev server
 npm start
 
-# Ship 👏🏻 it 👏🏻 !
+# Build for production
 npm run build
+
+# Analyze production build bundle size 
+npm run analyze
 ```
 
 ![Preview](./preview.png)
