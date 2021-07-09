@@ -30,13 +30,13 @@
 // export const googleSignIn = async () => {
 //   await auth
 //     .signInWithPopup(provider)
-//     .catch(error => console.log(error));
+//     .catch(error => console.error(error));
 // };
 
 // export const signIn = async (email, pass) => {
 //   await auth
 //     .signInWithEmailAndPassword(email, pass)
-//     .catch(error => alert(error));
+//     .catch(error => console.error(error));
 // };
 
 // export const signOut = () => auth.signOut();
