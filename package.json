@@ -18,7 +18,6 @@
     "react",
     "create-react-app",
     "cra",
-    "firebase"
   ],
   "eslintConfig": {
     "extends": [
