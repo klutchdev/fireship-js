@@ -9,20 +9,22 @@
 ### Install
 
 ```bash
-# With npx
 npx create-react-app <your-app-name> --template fireship
 ```
 
-### commands
+### Commands
 
+#### Start dev server
 ```bash
-# Start the dev server
 npm start
-
-# Build for production
+```
+#### Production build
+```bash
 npm run build
+```
 
-# Analyze production build bundle size 
+#### Analyze production build bundle size 
+```bash
 npm run analyze
 ```
 
