@@ -46,5 +46,3 @@ npm run analyze
 
 [fireship.page.link/slack](https://fireship.page.link/slack)
 
-
-![Preview](./preview.png)

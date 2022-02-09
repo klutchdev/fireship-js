@@ -1,7 +1,7 @@
 {
   "name": "cra-template-fireship",
   "description": "Build and ship 🔥 your app ⚡ faster",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "main": "template.json",
   "engines": {
     "node": ">=14"
