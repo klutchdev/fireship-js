@@ -8,18 +8,9 @@
  */
 
     import React from "react";
-    // import { auth } from "./firebase";
-    // import { useAuthState } from "react-firebase-hooks/auth";
     
     function App() {
-      // const [user, loading, error] = useAuthState(auth);
     
-      // if (loading) {
-      //   return <h1>Loading...</h1>;
-      // }
-      // else if (error) {
-      //   return <h1>Error: {error}</h1>;
-      // }
       return (
         <>
           <div className="header" />
@@ -39,11 +30,6 @@
               link="https://fireship.io/tags/css/"
               title="#css"
               className="tag-css"
-            />
-            <Tag
-              link="https://fireship.io/tags/firebase/"
-              title="#firebase"
-              className="tag-firebase"
             />
           </div>
           <NpmCommand />
