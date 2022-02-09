@@ -14,7 +14,7 @@ warning in VSCode,change the css.lint.unknownAtRules setting to ignore. */
 }
 
 body {
- margin: 0;
+  margin: 0;
   padding: 0;
   width: 100vw;
   height: 100%;

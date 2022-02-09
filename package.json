@@ -1,5 +1,5 @@
 {
-  "name": "cra-template-fireship-js",
+  "name": "cra-template-fireship",
   "description": "Build and ship 🔥 your app ⚡ faster",
   "version": "0.3.1",
   "main": "template.json",
@@ -17,11 +17,11 @@
     "fireship",
     "react",
     "create-react-app",
-    "cra",
+    "cra"
   ],
   "eslintConfig": {
     "extends": [
-      "react-app",
+      "react-app"
     ]
   },
   "browserslist": {
